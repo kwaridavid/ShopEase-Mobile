@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "shopease-mobile",
+    "scheme": "shopease",
     "slug": "shopease-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,6 +21,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-web-browser",
+      "expo-status-bar"
+    ]
   }
 }
